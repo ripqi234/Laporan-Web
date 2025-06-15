@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>RIFQI RESPON</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            border: 1px solid black;
+            padding: 20px;
+        }
+        .logo-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .judul-website {
+            font-size: 28px;
+            font-weight: bold;
+            padding: 15px 30px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        .logo {
+            border: 1px solid black;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .navbar a {
+            padding: 10px 15px;
+            font-size: 14px;
+            text-decoration: none;
+            border: 1px solid black;
+            background-color: #f0f0f0;
+            color: black;
+        }
+        .form-kontak {
+            border: 1px solid black;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        table {
+            margin-bottom: 10px;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 250px;
+        }
+        input[type="submit"] {
+            padding: 5px 15px;
+            margin-top: 10px;
+        }
+        .copyright {
+            border-top: 1px solid black;
+            margin-top: 20px;
+            padding-top: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-title">
+            <div class="judul-website">RESPON RIFQI</div>
+            <div class="logo">
+                <img src="tugas_RESPON.png" alt="Logo" width="60" height="60">
+            </div>            
+        </div>
+
+        <div class="navbar">
+            <a href="#">HOME</a>
+            <a href="#">PENDAFTARAN</a>
+            <a href="informasi.html">INFORMASI</a>
+            <a href="#">KONTAK KAMI</a>
+        </div>
+
+        <div class="form-kontak" id="kontak">
+            <h3>Kontak Kami</h3>
+            <form>
+                <table>
+                    <tr>
+                        <td>Nama</td>
+                        <td>:</td>
+                        <td><input type="text" name="nama" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td><input type="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td>Pesan</td>
+                        <td>:</td>
+                        <td><textarea name="pesan" rows="4" required></textarea></td>
+                    </tr>
+                </table>
+                <input type="submit" value="Kirim Pesan">
+            </form>
+        </div>
+
+        <div class="copyright">
+            Tahun Ajaran 2024/2025<br>
+            &copy;copyright 2025
+        </div>
+    </div>
+</body>
+</html>
